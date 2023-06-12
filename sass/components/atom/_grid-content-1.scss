@@ -1,0 +1,61 @@
+.grid__contents-1{
+    position: relative;
+    padding: 15px;
+
+    &:hover{
+        background-color: #04BBF2;
+    }
+
+    &-title{
+        font-size: 18px;
+        font-weight: 600;
+        color: $colour-white;
+        padding-left: 30px;
+        border-left: solid #00ffff 5px;
+    }
+
+    &-txt1{
+        font-size: 14px;
+        color: #ffffff80;
+        padding-top: 10px;
+    }
+
+    &-txt2{
+        font-size: 14px;
+        color: #ffffff80;
+    }
+
+    &-txt3{
+        font-size: 14px;
+        color: #ffffff80;
+        position: absolute;
+        bottom: 35px;
+        left: 300px;
+    }
+
+    &-date1{
+        font-size: 14px;
+        font-weight: 600;
+        color: $colour-white;
+        padding-top: 5px;
+    }
+
+    &-date2{
+        font-size: 14px;
+        font-weight: 600;
+        color: $colour-white;
+        position: absolute;
+        bottom: 15px;
+        left: 300px;
+    }
+
+    &-icon{
+        width: 160px;
+        height: 50px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        background-color: #04BBF2;
+        color: $colour-white;
+    }
+}

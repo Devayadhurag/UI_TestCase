@@ -1,0 +1,21 @@
+.banner__boy{
+    position: absolute;
+    bottom: 0;
+    left: 900px;
+}
+
+@include mobile{
+    .banner__boy{
+        width: 5px;
+        height: 5px;
+        visibility: hidden;
+        left: 0;
+        top: 0;
+
+        & img{
+            max-width: 100%;
+        }
+    }
+
+
+}

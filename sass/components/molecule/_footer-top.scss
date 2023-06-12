@@ -1,0 +1,82 @@
+.footer__top{
+    width: 1416px;
+    height: auto;
+    background: linear-gradient(72.45deg, #23133F 9.81%, #08205C 50.72%, #01326A 93.38%);
+    padding: 15px;
+    display: flex;
+
+    &-title{
+        font-size: 16px;
+        font-weight: 600;
+        color: $colour-white;
+        padding: 0 0 10px;
+    }
+    
+    &-txt{
+        font-size: 14px;
+        color: $colour-white;
+        padding-top: 10px;
+    }
+
+    &-beinex{
+        padding: 15px;
+        width: 20%;
+
+        &-1{
+            padding-top: 10px;
+
+            &-1c{
+                width: 200px;
+            }
+        }
+   
+    }
+
+    &-services{
+        padding: 15px;
+        width: 30%;
+
+        &-1{
+            @include flex-between;
+        }
+    }
+
+    &-industry{
+        padding: 15px;
+        width: 20%;
+    }
+
+    &-partners{
+        padding: 15px;
+        width: 30%;
+
+        &-1{
+            @include flex-between;
+        }
+    }
+
+}
+
+@include mobile{
+    .footer__top{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+
+        &-beinex{
+            width: auto;
+        }
+        &-services{
+            width: auto;
+            &-1{
+                flex-direction: column;
+            }
+        }
+        &-industry{
+            width: auto;
+            &-1{
+                flex-direction: column;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.benefits{
+    width: auto;
+    height: 780px;
+    background: #F1F5F8;
+    position: relative;
+
+    &__img img{
+        max-width: 100%;
+    }
+}
+
+@include mobile{
+    .benefits{
+        width: auto;
+        height: 1800px;
+
+        &__img img{
+            width: 100%;
+            height: 340px;
+            object-fit: cover;
+        }
+    }
+}

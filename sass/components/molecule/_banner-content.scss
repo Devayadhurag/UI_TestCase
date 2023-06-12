@@ -1,0 +1,99 @@
+.banner{
+    &__title{
+        position: absolute;
+        font-size: 28px;
+        font-weight: 600;
+        color: $colour-white;
+        top: 30px;
+        left: 30px;
+    }
+
+    &__sub{
+        position: absolute;
+        color: $colour-white;
+        font-size: 14px;
+        top: 75px;
+        left: 30px;
+
+    }
+    
+    &__bullet{
+        padding-bottom: 50%;
+        &1{
+            position: absolute;
+            top: 130px;
+            left: 30px;
+        }
+        &2{
+            position: absolute;
+            top: 200px;
+            left: 30px;
+        }
+        &3{
+            position: absolute;
+            top: 280px;
+            left: 30px;
+        }
+        &4{
+            position: absolute;
+            top: 130px;
+            left: 600px;
+        }
+        &5{
+            position: absolute;
+            top: 200px;
+            left: 600px;
+        }
+        &6{
+            position: absolute;
+            top: 280px;
+            left: 600px;
+        }
+
+        &-text{
+            color: $colour-white;
+            padding-left: 20px;
+        }
+    }
+
+    &__foot{
+        position: absolute;
+        bottom: 0;
+        width: 1000px;
+        background-color: $colour-blue;
+        padding: 20px 30px;
+        color: $colour-white;
+    }
+
+}
+
+@include mobile{
+    .banner{
+        &__title{
+            font-size: 14px;
+        }
+
+        &__bullet{
+            &4{
+                top: calc(280px + 80px);
+                left: 30px;
+            }
+            &5{
+                top: calc(280px + 160px);;
+                left: 30px;
+            }
+            &6{
+                top: calc(280px + 240px);;
+                left: 30px;
+            }
+
+            &-text{
+                font-size: 10px;
+            }
+        }
+
+        &__foot{
+            width: auto;
+        }
+    }
+}

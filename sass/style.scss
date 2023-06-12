@@ -1,0 +1,45 @@
+//imported from abstract/mixin
+@import './abstracts/mixins/mixin.scss';
+
+//imported from abstract/variables
+@import './abstracts/variables/color.scss';
+@import './abstracts/variables/spacer.scss';
+
+// imported from base
+@import './base/base.scss';
+@import './base/fonts.scss';
+@import './base/reset.scss';
+
+// imported from organism/atom
+@import './components/atom/banner-boy.scss';
+@import './components/atom/grid-contents-2.scss';
+@import './components/atom/grid-content-1.scss';
+
+// imported from organism/molecule
+@import './components/molecule/hero-carousel.scss';
+@import './components/molecule/hero-text.scss';
+@import './components/molecule/absorption-title.scss';
+@import './components/molecule/absorption-card.scss';
+@import './components/molecule/banner-content.scss';
+@import './components/molecule/testimonial-title.scss';
+@import './components/molecule/testimonial-card.scss';
+@import './components/molecule/benefits-card.scss';
+@import './components/molecule/benefits-title.scss';
+@import './components/molecule/grid-title.scss';
+@import './components/molecule/grid-contents.scss';
+@import './components/molecule/demo-request.scss';
+@import './components/molecule/demo-text.scss';
+@import './components/molecule/footer-top';
+@import './components/molecule/footer-bottom.scss';
+
+
+// imported from organism/organism
+@import './components/organism/navbar.scss';
+@import './components/organism/hero.scss';
+@import './components/organism/absorption.scss';
+@import './components/organism/banner.scss';
+@import './components/organism/testimonial.scss';
+@import './components/organism/benefits.scss';
+@import './components/organism/grid.scss';
+@import './components/organism/demo.scss';
+@import './components/organism/footer.scss';

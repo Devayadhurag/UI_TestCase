@@ -1,0 +1,110 @@
+.absorption__card{
+    @include flex-between;
+
+    &-1{
+        position: relative;
+        padding-top: $spacer-10;
+        &-label{
+            width: 172px;
+            position: absolute;
+            top: 100px;
+            font-size: 18px;
+            color: $colour-title;
+            font-weight: 600;
+            padding-top: $spacer-6;
+            padding-bottom: $spacer-2;
+        }
+    
+        &-lines{
+            width: 80px;
+            position: absolute;
+            left: 100px;
+            color: #88ADC8;
+        }
+
+        &-txt{
+            position: absolute;
+            top: 175px;
+            width: 175px;
+            height: 96px;
+        }
+    }
+    &-2{
+        position: relative;
+        padding-top: $spacer-4;
+        background-color: $colour-blue;
+        padding-left: $spacer-8;
+        padding-right: $spacer-8;
+        padding-top: 80px;
+
+        &-label{
+            font-size: 24px;
+            color: $colour-white;
+            font-weight: 600;
+            padding-top: $spacer-6;
+            text-align: center;
+        }
+
+        &-txt{
+            width: 175px;
+            height: 96px;
+            text-align: center;
+            color: $colour-white;
+            font-size: 16px;
+        }
+
+        &-icon1{
+            position: absolute;
+            top: -100px;
+        }
+
+        &-icon2{
+            position: relative;
+            left: 70px;
+        }
+    }
+    
+}
+
+@include mobile{
+    .absorption__card{
+        justify-content: space-around;
+        flex-direction: column;
+        
+        &-1{
+            padding-bottom: 40px;
+            text-align: center;
+            padding-bottom: 0;
+            padding-top: $spacer-4;
+            &-label{
+                width: auto;
+                position: relative;
+                text-align: center;
+                top: 0;
+            }
+        
+            &-lines{
+                visibility: hidden;
+            }
+    
+            &-txt{
+                position: relative;
+                width: auto;
+                text-align: center;
+                top: 0;
+            }
+
+        }
+
+        &-2{
+            margin-top: 20px;
+            &-txt{
+                width: auto;
+            }
+            &-icon2{
+                left: 95px;
+                width: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.benefits__title{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+
+    &-1{
+        color: $colour-white;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    &-2{
+        color: $colour-white;
+        font-size: 24px;
+        font-weight: 600;
+        
+        &-line{
+            fill: $colour-white;
+            padding-left: 10px;
+        }
+    }
+}
+
+@include mobile{
+    .benefits__title-1{
+        font-size: 12px;
+    }
+
+    .benefits__title-2{
+        font-size: 16px;
+    }
+}

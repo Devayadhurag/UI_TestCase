@@ -1,0 +1,20 @@
+.testimonial__title{
+    text-align: center;
+    &-1{
+        font-size: 28px;
+        font-weight: 600;
+        color: $colour-title;
+    }
+
+    &-2{
+        font-size: 14px;
+        padding: 0 325px 0;
+    }
+}
+
+@include mobile{
+    .testimonial__title-2{
+        padding: 0px;
+
+    }
+}

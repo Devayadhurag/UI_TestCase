@@ -1,0 +1,39 @@
+.grid__contents-2{
+    padding: 15px;
+
+    &:hover{
+        background-color: #3496f2;
+    }
+
+    &-title{
+        font-size: 18px;
+        color: $colour-white;
+        font-weight: 600;
+        padding-left: 30px;
+        border-left: solid #00ffff 5px;
+    }
+
+    &-txt{
+        font-size: 14px;
+        padding-top: 10px;
+        color: #ffffff85;
+    }
+
+    &-date{
+        font-size: 14px;
+        font-weight: 600;
+        color: $colour-white;
+    }
+
+    &-icon{
+        position: absolute;
+        right: 30px;
+        top: 45%;
+
+        & img{
+            height: 30px;
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+}

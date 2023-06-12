@@ -1,0 +1,31 @@
+.carousel{
+    position: relative;
+    &-control-prev{
+        height: 40px;
+        width: 40px;
+        background-color: #10385B;
+        position: absolute;
+        left: 30px;
+        top: 230px;
+    }
+
+    &-control-next{
+        height: 40px;
+        width: 40px;
+        background-color: #10385B;
+        position: absolute;
+        left: 100px;
+        top: 230px;
+
+    }
+}
+
+@include mobile{
+    .c-item{
+        height: 300px;
+        }
+    .carousel-item img{
+        object-fit: cover;
+    }
+
+}
